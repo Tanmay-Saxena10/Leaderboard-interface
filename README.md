@@ -1,4 +1,4 @@
-Leaderboard Interface
+</h1>Leaderboard Interface</h1>
 
 This project is a Leaderboard Interface built with React and Material-UI. It dynamically fetches and displays trader data in a visually appealing and responsive manner.
 
