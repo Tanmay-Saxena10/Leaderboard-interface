@@ -1,0 +1,53 @@
+/* TopTraders.css */
+
+.top-traders-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 29px; /* Adds space between trader cards */
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.top-trader-card {
+  width: 260px;  /* Increased card width */
+  background-color: #ffffff;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center;
+  padding: 30px;
+}
+
+.top-trader-card:hover {
+  transform: translateY(-30px); /* Card lift effect on hover */
+  box-shadow: 0 12px 20px red ; /* Increased shadow on hover */
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 170px; /* Increased height for larger image */
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 160px; /* Increased avatar size */
+  height: 170px; /* Increased avatar size */
+  border-radius: 50%; /* Circular avatar */
+  object-fit: cover;
+}
+
+.trader-info h3 {
+  margin: 10px 5px 5px;
+  font-size: 30px; /* Larger font size for name */
+  font-weight: bold;
+  color: #333; /* Darker text for name */
+}
+
+.trader-info p {
+  margin: 10px;
+  color: #333; /* Lighter text for details */
+  font-size: 19px;
+}

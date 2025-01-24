@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ddbebeec; ;
+  color: #333;
+}
+
+/* Headline Styling */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Leaderboard Container - Centered Box */
+.table-container {
+  width: 80%; /* Adjust the width to center the table in a smaller box */
+  max-width: 1000px; /* Prevent the box from getting too wide */
+  margin: 30px auto; /* Center the container horizontally and add vertical spacing */
+  background-color: #ffffff; /* White background for better visibility */
+  padding: px; /* Space inside the container */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  border: 1px solid #ddd; /* Light border for a polished look */
+}
+
+/* Table Styling */
+table {
+  width: 100%; /* Stretch the table to fit the container */
+  border-collapse: collapse; /* Remove gaps between cells */
+  font-size: 19px; /* Standard font size */
+  text-align: left; /* Align text to the left */
+  border-radius: 10px; /* Rounded corners */
+}
+
+thead th {
+  background-color: #1976d2; /* Blue header background */
+  color: white; /* White text for headers */
+  font-weight: bold;
+  padding: 19px; /* Space inside header cells */
+}
+
+td, th {
+  padding: 12px; /* Space inside cells */
+  border: 3px solid #ddd; /* Light border for separation */
+}
+
+/* Key Metrics Styles */
+.key-metrics {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 40px;
+}
+
+.custom-card {
+  height: 170px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Align text in the center */
+  padding: 10px; /* Space inside the card */
+}
+
+
+
+/* Responsive Styling */
+@media (max-width: 1000px) {
+  .top-traders-container {
+    flex-direction: column; /* Stack cards vertically on small screens */
+  }
+
+  .top-trader-card {
+    width: 90%; /* Make the cards full-width on smaller screens */
+    margin-bottom: 15px;
+  }
+
+  table {
+    font-size: 19px; /* Reduce table font size on smaller screens */
+  }
+
+  .key-metrics {
+    color:#1976d2 !important;  /* Set the text color to blue on smaller screens */
+  }
+}
