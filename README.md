@@ -62,9 +62,11 @@
 
   <h2>📸 Screenshots</h2>
     <p>Leader Board Section (alt text)</p>
-    
+   <p><img src="https://github.com/Tanmay-Saxena10/Leaderboard-interface/blob/master/image.png" align="center" height="350">
+
+
   <p>Key Metrics Section (alt text)</p>
-    
+    <p><img src="https://github.com/Tanmay-Saxena10/Leaderboard-interface/blob/master/image-1.png" align="center" height="350">
 
   <h2>🛠️ Built With</h2>
     <ul>
