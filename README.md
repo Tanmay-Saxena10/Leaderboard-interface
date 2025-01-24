@@ -26,7 +26,7 @@ https://leaderboard-interface-9lx7.onrender.com/
                 <li>Trophies</li>
             </ul>
         </li>
-        <li><strong>Responsive Design:</strong> Fully optimized for desktops, tablets, and mobile devices.</li>
+        <li><strong>Responsive Design:</strong> Fully optimized for desktops.</li>
     </ul>
 
 <h2>🚀 Installation and Setup</h2>
