@@ -38,7 +38,7 @@ Xscores
 Trophies
 
 Responsive Design:
-Fully optimized for desktops, tablets, and mobile devices.
+Fully optimized for desktops.
 
 🚀 Installation and Setup
 
