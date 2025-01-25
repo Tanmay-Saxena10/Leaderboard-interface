@@ -37,7 +37,7 @@ https://leaderboard-interface-9lx7.onrender.com/
 <h3>Steps</h3>
     <ol>
         <li>Clone this repository:
-            <pre><code>git clone https://github.com//.git</code></pre>
+            <pre><code>git clone https://github.com/Tanmay-Saxena10/Leaderboard-interface.git </code></pre>
         </li>
         <li>Navigate to the project folder:
             <pre><code>cd</code></pre>
@@ -54,7 +54,7 @@ https://leaderboard-interface-9lx7.onrender.com/
   <h2>📂 Folder Structure</h2>
     <pre>
 . ├── src
-│   ├── components        # React components (TopTraders, KeyMetrics, LeaderboardTable)
+│   ├── components        # React components (TopTraders.js, KeyMetrics.js, LeaderboardTable.js)
 │   ├── api               # API logic for fetching trader data
 │   ├── App.js            # Main application file
 │   ├── index.js          # React entry point
@@ -67,7 +67,7 @@ https://leaderboard-interface-9lx7.onrender.com/
    <p><img src="https://github.com/Tanmay-Saxena10/Leaderboard-interface/blob/master/image.png" align="center" height="350">
 
 
-  <p>Key Metrics Section </p>
+  <p>Key Metrics Section & Table </p>
     <p><img src="https://github.com/Tanmay-Saxena10/Leaderboard-interface/blob/master/image-1.png" align="center" height="350">
 
   <h2>🛠️ Built With</h2>
